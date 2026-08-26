@@ -15,14 +15,14 @@ This repository implements a **Genetic Algorithm (GA)** in Java to solve the **2
 
 ## 🚀 Lab Milestones (Termin 1 – Termin 4)
 
-### **Termin 1: Spatial Folding & Random Generation**
+### **Termin 1: Spatial Folding**
 * Initial spatial grid mapping of sequence paths.
-* Generation of purely random candidate direction vectors.
 * Calculation of initial overlaps and H-H contact statistics.
 * Basic visual rendering of candidate folding paths.
 
-### **Termin 2 / Termin 2 Beta: Basic Evolutionary Operators**
+### **Termin 2 Beta: Basic Evolutionary Operators  & Random Generation**
 * Implementation of **Fitness-Proportional Selection (Roulette Wheel)**.
+* * Generation of purely random candidate direction vectors.
 * **Single-Point Crossover** operator for combining directional tails between selected parents.
 * **Point Mutation** using a fixed, static mutation rate per gene.
 * Creation of early generational loops and CSV log export.
@@ -47,7 +47,7 @@ This repository implements a **Genetic Algorithm (GA)** in Java to solve the **2
 
 ```text
 GA/
-├── Termin1/                 # Initial random generator & basic grid visualization
+├── Termin1/                 #Fitness calculations 
 ├── src/
 │   │   ├── Faltung.java  
 ├── Termin2beta/             # # Basic GA operators (Static mutation & Roulette Wheel)
